@@ -44,3 +44,30 @@ E:\NIIT\Programming Tools\Texditor\Texditor\Texditor\obj\Debug\Texditor.mailSend
 E:\NIIT\Programming Tools\Texditor\Texditor\Texditor\obj\Debug\Texditor.signature.resources
 E:\NIIT\Programming Tools\Texditor\Texditor\Texditor\bin\Debug\AutocompleteMenu.dll
 E:\NIIT\Programming Tools\Texditor\Texditor\Texditor\bin\Debug\AutocompleteMenu.pdb
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\obj\Debug\Texditor.csproj.AssemblyReference.cache
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\obj\Debug\Texditor.csproj.ResolveComReference.cache
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\obj\Debug\Texditor.FindReplace.resources
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\obj\Debug\Texditor.Form1.resources
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\obj\Debug\Texditor.InsertTable.resources
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\obj\Debug\Texditor.Properties.Resources.resources
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\obj\Debug\Texditor.csproj.GenerateResource.cache
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\obj\Debug\Texditor.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\obj\Debug\Texditor.TrustInfo.xml
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\obj\Debug\Texditor.exe
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\obj\Debug\Texditor.pdb
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\bin\Debug\Texditor.exe.config
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\bin\Debug\Texditor.exe.manifest
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\bin\Debug\Texditor.application
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\bin\Debug\Texditor.exe
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\bin\Debug\Texditor.pdb
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\bin\Debug\AutocompleteMenu.dll
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\bin\Debug\PdfSharp.dll
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\bin\Debug\PdfSharp.Charting.dll
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\bin\Debug\AutocompleteMenu.pdb
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\bin\Debug\de\MigraDoc.DocumentObjectModel.resources.dll
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\bin\Debug\de\MigraDoc.Rendering.resources.dll
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\bin\Debug\de\MigraDoc.RtfRendering.resources.dll
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\obj\Debug\Texditor.exe.manifest
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\obj\Debug\Texditor.application
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\obj\Debug\Texditor.csproj.CopyComplete

@@ -19,10 +19,10 @@ namespace Texditor.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Texditor.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Texditor.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace Texditor.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,9 +63,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _32___Uppercase_user_interface_communication_256 {
+        public static System.Drawing.Bitmap _32___Uppercase_user_interface_communication_2561 {
             get {
-                object obj = ResourceManager.GetObject("32_-_Uppercase_user_interface_communication-256", resourceCulture);
+                object obj = ResourceManager.GetObject("32_-_Uppercase_user_interface_communication-2561", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _33___Lowercase_user_interface_communication_256 {
+        public static System.Drawing.Bitmap _33___Lowercase_user_interface_communication_2561 {
             get {
-                object obj = ResourceManager.GetObject("33_-_Lowercase_user_interface_communication-256", resourceCulture);
+                object obj = ResourceManager.GetObject("33_-_Lowercase_user_interface_communication-2561", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap align_left_256 {
+        public static System.Drawing.Bitmap align_left_2561 {
             get {
-                object obj = ResourceManager.GetObject("align-left-256", resourceCulture);
+                object obj = ResourceManager.GetObject("align-left-2561", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap align_middle_256 {
+        public static System.Drawing.Bitmap align_middle_2561 {
             get {
-                object obj = ResourceManager.GetObject("align-middle-256", resourceCulture);
+                object obj = ResourceManager.GetObject("align-middle-2561", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap align_right_256 {
+        public static System.Drawing.Bitmap align_right_2561 {
             get {
-                object obj = ResourceManager.GetObject("align-right-256", resourceCulture);
+                object obj = ResourceManager.GetObject("align-right-2561", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap american_express {
+        public static System.Drawing.Bitmap american_express1 {
             get {
-                object obj = ResourceManager.GetObject("american-express", resourceCulture);
+                object obj = ResourceManager.GetObject("american-express1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Background_Color {
+        public static System.Drawing.Bitmap Background_Color1 {
             get {
-                object obj = ResourceManager.GetObject("Background Color", resourceCulture);
+                object obj = ResourceManager.GetObject("Background Color1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bold {
+        public static System.Drawing.Bitmap bold_2561 {
             get {
-                object obj = ResourceManager.GetObject("bold", resourceCulture);
+                object obj = ResourceManager.GetObject("bold-2561", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bold_256 {
+        public static System.Drawing.Bitmap bold1 {
             get {
-                object obj = ResourceManager.GetObject("bold-256", resourceCulture);
+                object obj = ResourceManager.GetObject("bold1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bullet_list_marked {
+        public static System.Drawing.Bitmap bullet_list_marked1 {
             get {
-                object obj = ResourceManager.GetObject("bullet-list-marked", resourceCulture);
+                object obj = ResourceManager.GetObject("bullet-list-marked1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +163,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap centre_alignment {
+        public static System.Drawing.Bitmap centre_alignment1 {
             get {
-                object obj = ResourceManager.GetObject("centre-alignment", resourceCulture);
+                object obj = ResourceManager.GetObject("centre-alignment1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +173,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap character_subscript_256 {
+        public static System.Drawing.Bitmap character_subscript_2561 {
             get {
-                object obj = ResourceManager.GetObject("character-subscript-256", resourceCulture);
+                object obj = ResourceManager.GetObject("character-subscript-2561", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +183,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap character_superscript_256 {
+        public static System.Drawing.Bitmap character_superscript_2561 {
             get {
-                object obj = ResourceManager.GetObject("character-superscript-256", resourceCulture);
+                object obj = ResourceManager.GetObject("character-superscript-2561", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +193,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap close {
+        public static System.Drawing.Bitmap close1 {
             get {
-                object obj = ResourceManager.GetObject("close", resourceCulture);
+                object obj = ResourceManager.GetObject("close1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,9 +203,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap color_text {
+        public static System.Drawing.Bitmap color_text2 {
             get {
-                object obj = ResourceManager.GetObject("color-text", resourceCulture);
+                object obj = ResourceManager.GetObject("color-text2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,9 +213,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap copy_content {
+        public static System.Drawing.Bitmap copy_content1 {
             get {
-                object obj = ResourceManager.GetObject("copy-content", resourceCulture);
+                object obj = ResourceManager.GetObject("copy-content1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,9 +223,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap cut {
+        public static System.Drawing.Bitmap cut1 {
             get {
-                object obj = ResourceManager.GetObject("cut", resourceCulture);
+                object obj = ResourceManager.GetObject("cut1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +233,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap document_print_256 {
+        public static System.Drawing.Bitmap document_print_2561 {
             get {
-                object obj = ResourceManager.GetObject("document-print-256", resourceCulture);
+                object obj = ResourceManager.GetObject("document-print-2561", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,9 +243,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Exit {
+        public static System.Drawing.Bitmap Exit1 {
             get {
-                object obj = ResourceManager.GetObject("Exit", resourceCulture);
+                object obj = ResourceManager.GetObject("Exit1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,9 +253,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap file_new {
+        public static System.Drawing.Bitmap file_new1 {
             get {
-                object obj = ResourceManager.GetObject("file new", resourceCulture);
+                object obj = ResourceManager.GetObject("file new1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,17 +263,7 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap findand_replace {
-            get {
-                object obj = ResourceManager.GetObject("findand replace", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap findand_replace1 {
+        public static System.Drawing.Bitmap findand_replace1 {
             get {
                 object obj = ResourceManager.GetObject("findand replace1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -283,9 +273,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap font {
+        public static System.Drawing.Bitmap findand_replace3 {
             get {
-                object obj = ResourceManager.GetObject("font", resourceCulture);
+                object obj = ResourceManager.GetObject("findand replace3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -293,9 +283,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Font_color {
+        public static System.Drawing.Bitmap Font_color1 {
             get {
-                object obj = ResourceManager.GetObject("Font color", resourceCulture);
+                object obj = ResourceManager.GetObject("Font color1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -303,9 +293,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap italic_256 {
+        public static System.Drawing.Bitmap font1 {
             get {
-                object obj = ResourceManager.GetObject("italic-256", resourceCulture);
+                object obj = ResourceManager.GetObject("font1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -313,9 +303,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap italic_text {
+        public static System.Drawing.Bitmap italic_2561 {
             get {
-                object obj = ResourceManager.GetObject("italic-text", resourceCulture);
+                object obj = ResourceManager.GetObject("italic-2561", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -323,9 +313,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap left_indent {
+        public static System.Drawing.Bitmap italic_text1 {
             get {
-                object obj = ResourceManager.GetObject("left-indent", resourceCulture);
+                object obj = ResourceManager.GetObject("italic-text1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -333,7 +323,7 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap left_indent1 {
+        public static System.Drawing.Bitmap left_indent1 {
             get {
                 object obj = ResourceManager.GetObject("left-indent1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -343,9 +333,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap list {
+        public static System.Drawing.Bitmap left_indent3 {
             get {
-                object obj = ResourceManager.GetObject("list", resourceCulture);
+                object obj = ResourceManager.GetObject("left-indent3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -353,9 +343,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap list_numbers_256 {
+        public static System.Drawing.Bitmap list_numbers_2561 {
             get {
-                object obj = ResourceManager.GetObject("list-numbers-256", resourceCulture);
+                object obj = ResourceManager.GetObject("list-numbers-2561", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -363,9 +353,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap lowercase {
+        public static System.Drawing.Bitmap list1 {
             get {
-                object obj = ResourceManager.GetObject("lowercase", resourceCulture);
+                object obj = ResourceManager.GetObject("list1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -373,9 +363,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap open {
+        public static System.Drawing.Bitmap lowercase1 {
             get {
-                object obj = ResourceManager.GetObject("open", resourceCulture);
+                object obj = ResourceManager.GetObject("lowercase1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -383,9 +373,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap painter_palette {
+        public static System.Drawing.Bitmap open1 {
             get {
-                object obj = ResourceManager.GetObject("painter-palette", resourceCulture);
+                object obj = ResourceManager.GetObject("open1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -393,9 +383,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap paste {
+        public static System.Drawing.Bitmap painter_palette1 {
             get {
-                object obj = ResourceManager.GetObject("paste", resourceCulture);
+                object obj = ResourceManager.GetObject("painter-palette1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -403,9 +393,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pdf {
+        public static System.Drawing.Bitmap paste1 {
             get {
-                object obj = ResourceManager.GetObject("pdf", resourceCulture);
+                object obj = ResourceManager.GetObject("paste1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -413,9 +403,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap picture {
+        public static System.Drawing.Bitmap pdf1 {
             get {
-                object obj = ResourceManager.GetObject("picture", resourceCulture);
+                object obj = ResourceManager.GetObject("pdf1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -423,9 +413,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap print_preview {
+        public static System.Drawing.Bitmap picture1 {
             get {
-                object obj = ResourceManager.GetObject("print_preview", resourceCulture);
+                object obj = ResourceManager.GetObject("picture1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -433,9 +423,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap printer {
+        public static System.Drawing.Bitmap print_preview1 {
             get {
-                object obj = ResourceManager.GetObject("printer", resourceCulture);
+                object obj = ResourceManager.GetObject("print_preview1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -443,9 +433,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap redo {
+        public static System.Drawing.Bitmap printer1 {
             get {
-                object obj = ResourceManager.GetObject("redo", resourceCulture);
+                object obj = ResourceManager.GetObject("printer1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -453,9 +443,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap right_indent {
+        public static System.Drawing.Bitmap redo1 {
             get {
-                object obj = ResourceManager.GetObject("right-indent", resourceCulture);
+                object obj = ResourceManager.GetObject("redo1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -463,7 +453,7 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap right_indent1 {
+        public static System.Drawing.Bitmap right_indent1 {
             get {
                 object obj = ResourceManager.GetObject("right-indent1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -473,7 +463,7 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap right_indent2 {
+        public static System.Drawing.Bitmap right_indent2 {
             get {
                 object obj = ResourceManager.GetObject("right-indent2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -483,9 +473,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap save {
+        public static System.Drawing.Bitmap right_indent5 {
             get {
-                object obj = ResourceManager.GetObject("save", resourceCulture);
+                object obj = ResourceManager.GetObject("right-indent5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -493,9 +483,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap save_as {
+        public static System.Drawing.Bitmap save_as1 {
             get {
-                object obj = ResourceManager.GetObject("save as", resourceCulture);
+                object obj = ResourceManager.GetObject("save as1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -503,9 +493,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap strikethrough {
+        public static System.Drawing.Bitmap save1 {
             get {
-                object obj = ResourceManager.GetObject("strikethrough", resourceCulture);
+                object obj = ResourceManager.GetObject("save1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -513,9 +503,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap strikethrough_256 {
+        public static System.Drawing.Bitmap strikethrough_2561 {
             get {
-                object obj = ResourceManager.GetObject("strikethrough-256", resourceCulture);
+                object obj = ResourceManager.GetObject("strikethrough-2561", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -523,9 +513,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap subscript {
+        public static System.Drawing.Bitmap strikethrough1 {
             get {
-                object obj = ResourceManager.GetObject("subscript", resourceCulture);
+                object obj = ResourceManager.GetObject("strikethrough1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -533,9 +523,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap superscript {
+        public static System.Drawing.Bitmap subscript1 {
             get {
-                object obj = ResourceManager.GetObject("superscript", resourceCulture);
+                object obj = ResourceManager.GetObject("subscript1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -543,9 +533,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap table_grid {
+        public static System.Drawing.Bitmap superscript1 {
             get {
-                object obj = ResourceManager.GetObject("table-grid", resourceCulture);
+                object obj = ResourceManager.GetObject("superscript1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -553,9 +543,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap textwrap {
+        public static System.Drawing.Bitmap table_grid1 {
             get {
-                object obj = ResourceManager.GetObject("textwrap", resourceCulture);
+                object obj = ResourceManager.GetObject("table-grid1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -563,7 +553,7 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap textwrap1 {
+        public static System.Drawing.Bitmap textwrap1 {
             get {
                 object obj = ResourceManager.GetObject("textwrap1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -573,9 +563,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap thin_0244_text_bullets_list_256 {
+        public static System.Drawing.Bitmap textwrap3 {
             get {
-                object obj = ResourceManager.GetObject("thin-0244_text_bullets_list-256", resourceCulture);
+                object obj = ResourceManager.GetObject("textwrap3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -583,9 +573,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap TimeandDate {
+        public static System.Drawing.Bitmap thin_0244_text_bullets_list_2561 {
             get {
-                object obj = ResourceManager.GetObject("TimeandDate", resourceCulture);
+                object obj = ResourceManager.GetObject("thin-0244_text_bullets_list-2561", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -593,7 +583,7 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap TimeandDate1 {
+        public static System.Drawing.Bitmap TimeandDate1 {
             get {
                 object obj = ResourceManager.GetObject("TimeandDate1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -603,9 +593,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap underline_256 {
+        public static System.Drawing.Bitmap TimeandDate3 {
             get {
-                object obj = ResourceManager.GetObject("underline-256", resourceCulture);
+                object obj = ResourceManager.GetObject("TimeandDate3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -613,9 +603,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap underline_text_option {
+        public static System.Drawing.Bitmap underline_2561 {
             get {
-                object obj = ResourceManager.GetObject("underline-text-option", resourceCulture);
+                object obj = ResourceManager.GetObject("underline-2561", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -623,9 +613,9 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap undo {
+        public static System.Drawing.Bitmap underline_text_option1 {
             get {
-                object obj = ResourceManager.GetObject("undo", resourceCulture);
+                object obj = ResourceManager.GetObject("underline-text-option1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -633,9 +623,19 @@ namespace Texditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap uppercase {
+        public static System.Drawing.Bitmap undo1 {
             get {
-                object obj = ResourceManager.GetObject("uppercase", resourceCulture);
+                object obj = ResourceManager.GetObject("undo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap uppercase1 {
+            get {
+                object obj = ResourceManager.GetObject("uppercase1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

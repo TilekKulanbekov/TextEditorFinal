@@ -37,6 +37,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -66,7 +67,7 @@
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Aspose.Html">
@@ -137,11 +138,13 @@
     <Compile Include="FindReplace.Designer.cs">
       <DependentUpon>FindReplace.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="..\..\..\..\Desktop\Form1.cs">
       <SubType>Form</SubType>
+      <Link>Form1.cs</Link>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="..\..\..\..\Desktop\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+      <Link>Form1.Designer.cs</Link>
     </Compile>
     <Compile Include="InsertTable.cs">
       <SubType>Form</SubType>
@@ -149,50 +152,33 @@
     <Compile Include="InsertTable.Designer.cs">
       <DependentUpon>InsertTable.cs</DependentUpon>
     </Compile>
-    <Compile Include="mailSend.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="mailSend.Designer.cs">
-      <DependentUpon>mailSend.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="signature.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="signature.Designer.cs">
-      <DependentUpon>signature.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="FindReplace.resx">
       <DependentUpon>FindReplace.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="..\..\..\..\Desktop\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+      <Link>Form1.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="InsertTable.resx">
       <DependentUpon>InsertTable.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="mailSend.resx">
-      <DependentUpon>mailSend.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <EmbeddedResource Include="signature.resx">
-      <DependentUpon>signature.cs</DependentUpon>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -202,114 +188,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\american-express.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\open.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\file new.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\save.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\pdf.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\textwrap.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\close.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\Exit.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\save as.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\undo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\redo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\cut.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\copy-content.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\paste.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\findand replace.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\TimeandDate.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\picture.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\table-grid.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\font.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\bold.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\italic-text.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\underline-text-option.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\strikethrough.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\color-text.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\painter-palette.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\left-indent.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\right-indent.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\centre-alignment.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\list.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\bullet-list-marked.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\subscript.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\superscript.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\printer.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\print_preview.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\uppercase.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\lowercase.png" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="Microsoft.Office.Core">
@@ -344,55 +222,124 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="images\bold-256.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\italic-256.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\underline-256.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\strikethrough-256.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\Font color.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\Background Color.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\align-left-256.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\align-middle-256.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\align-right-256.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\list-numbers-256.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\thin-0244_text_bullets_list-256.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\character-subscript-256.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\character-superscript-256.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\document-print-256.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\32_-_Uppercase_user_interface_communication-256.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\33_-_Lowercase_user_interface_communication-256.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="office-material.ico" />
+    <None Include="Resources\32_-_Uppercase_user_interface_communication-2561.png" />
+    <None Include="Resources\33_-_Lowercase_user_interface_communication-2561.png" />
+    <None Include="Resources\align-left-2561.png" />
+    <None Include="Resources\align-middle-2561.png" />
+    <None Include="Resources\align-right-2561.png" />
+    <None Include="Resources\american-express1.png" />
+    <None Include="Resources\Background Color1.png" />
+    <None Include="Resources\bold1.png" />
+    <None Include="Resources\bold-2561.png" />
+    <None Include="Resources\bullet-list-marked1.png" />
+    <None Include="Resources\centre-alignment1.png" />
+    <None Include="Resources\character-subscript-2561.png" />
+    <None Include="Resources\character-superscript-2561.png" />
+    <None Include="Resources\close1.png" />
+    <None Include="Resources\color-text2.png" />
+    <None Include="Resources\copy-content1.png" />
+    <None Include="Resources\cut1.png" />
+    <None Include="Resources\document-print-2561.png" />
+    <None Include="Resources\Exit1.png" />
+    <None Include="Resources\file new1.png" />
+    <None Include="Resources\findand replace3.png" />
+    <None Include="Resources\findand replace2.png" />
+    <None Include="Resources\font1.png" />
+    <None Include="Resources\Font color1.png" />
+    <None Include="Resources\italic-2561.png" />
+    <None Include="Resources\italic-text1.png" />
+    <None Include="Resources\left-indent3.png" />
+    <None Include="Resources\left-indent2.png" />
+    <None Include="Resources\list1.png" />
+    <None Include="Resources\list-numbers-2561.png" />
+    <None Include="Resources\lowercase1.png" />
+    <None Include="Resources\open1.png" />
+    <None Include="Resources\painter-palette1.png" />
+    <None Include="Resources\paste1.png" />
+    <None Include="Resources\pdf1.png" />
+    <None Include="Resources\picture1.png" />
+    <None Include="Resources\print_preview1.png" />
+    <None Include="Resources\printer1.png" />
+    <None Include="Resources\redo1.png" />
+    <None Include="Resources\right-indent5.png" />
+    <None Include="Resources\right-indent4.png" />
+    <None Include="Resources\right-indent3.png" />
+    <None Include="Resources\save1.png" />
+    <None Include="Resources\save as1.png" />
+    <None Include="Resources\strikethrough1.png" />
+    <None Include="Resources\strikethrough-2561.png" />
+    <None Include="Resources\subscript1.png" />
+    <None Include="Resources\superscript1.png" />
+    <None Include="Resources\table-grid1.png" />
+    <None Include="Resources\textwrap3.PNG" />
+    <None Include="Resources\textwrap2.PNG" />
+    <None Include="Resources\thin-0244_text_bullets_list-2561.png" />
+    <None Include="Resources\TimeandDate3.png" />
+    <None Include="Resources\TimeandDate2.png" />
+    <None Include="Resources\underline-2561.png" />
+    <None Include="Resources\underline-text-option1.png" />
+    <None Include="Resources\undo1.png" />
+    <None Include="Resources\uppercase1.png" />
+    <None Include="Resources\uppercase.png" />
+    <None Include="Resources\undo.png" />
+    <None Include="Resources\underline-text-option.png" />
+    <None Include="Resources\underline-256.png" />
+    <None Include="Resources\TimeandDate1.png" />
+    <None Include="Resources\TimeandDate.png" />
+    <None Include="Resources\thin-0244_text_bullets_list-256.png" />
+    <None Include="Resources\textwrap1.PNG" />
+    <None Include="Resources\textwrap.PNG" />
+    <None Include="Resources\table-grid.png" />
+    <None Include="Resources\superscript.png" />
+    <None Include="Resources\subscript.png" />
+    <None Include="Resources\strikethrough-256.png" />
+    <None Include="Resources\strikethrough.png" />
+    <None Include="Resources\save as.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\right-indent2.png" />
+    <None Include="Resources\right-indent1.png" />
+    <None Include="Resources\right-indent.png" />
+    <None Include="Resources\redo.png" />
+    <None Include="Resources\printer.png" />
+    <None Include="Resources\print_preview.png" />
+    <None Include="Resources\picture.png" />
+    <None Include="Resources\pdf.png" />
+    <None Include="Resources\paste.png" />
+    <None Include="Resources\painter-palette.png" />
+    <None Include="Resources\open.png" />
+    <None Include="Resources\lowercase.png" />
+    <None Include="Resources\list-numbers-256.png" />
+    <None Include="Resources\list.png" />
+    <None Include="Resources\left-indent1.png" />
+    <None Include="Resources\left-indent.png" />
+    <None Include="Resources\italic-text.png" />
+    <None Include="Resources\italic-256.png" />
+    <None Include="Resources\Font color.png" />
+    <None Include="Resources\font.png" />
+    <None Include="Resources\findand replace1.png" />
+    <None Include="Resources\findand replace.png" />
+    <None Include="Resources\file new.png" />
+    <None Include="Resources\Exit.png" />
+    <None Include="Resources\document-print-256.png" />
+    <None Include="Resources\cut.png" />
+    <None Include="Resources\copy-content.png" />
+    <None Include="Resources\color-text1.png" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\character-superscript-256.png" />
+    <None Include="Resources\character-subscript-256.png" />
+    <None Include="Resources\centre-alignment.png" />
+    <None Include="Resources\bullet-list-marked.png" />
+    <None Include="Resources\bold-256.png" />
+    <None Include="Resources\bold.png" />
+    <None Include="Resources\Background Color.png" />
+    <None Include="Resources\american-express.png" />
+    <None Include="Resources\align-right-256.png" />
+    <None Include="Resources\align-middle-256.png" />
+    <None Include="Resources\align-left-256.png" />
+    <None Include="Resources\33_-_Lowercase_user_interface_communication-256.png" />
+    <None Include="Resources\32_-_Uppercase_user_interface_communication-256.png" />
+    <None Include="Resources\color-text.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
@@ -405,6 +352,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

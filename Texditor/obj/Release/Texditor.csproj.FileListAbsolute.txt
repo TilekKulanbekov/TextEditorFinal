@@ -1,0 +1,10 @@
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\obj\Release\Texditor.csproj.AssemblyReference.cache
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\obj\Release\Texditor.csproj.ResolveComReference.cache
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\obj\Release\Texditor.FindReplace.resources
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\obj\Release\Texditor.Form1.resources
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\obj\Release\Texditor.InsertTable.resources
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\obj\Release\Texditor.mailSend.resources
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\obj\Release\Texditor.Properties.Resources.resources
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\obj\Release\Texditor.signature.resources
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\obj\Release\Texditor.csproj.GenerateResource.cache
+C:\Users\user\Source\Repos\TexeditorFinal\Texditor\obj\Release\Texditor.csproj.CoreCompileInputs.cache

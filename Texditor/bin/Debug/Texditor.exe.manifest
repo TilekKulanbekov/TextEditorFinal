@@ -43,42 +43,6 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Aspose.Html.dll" size="6389456">
-      <assemblyIdentity name="Aspose.Html" version="17.9.0.0" publicKeyToken="716FCC553A201E56" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>3V9i1dd/e+NWHvkcWN8i4bvAKS0kJDu44YoJhKcUZHY=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Aspose.Pdf.dll" size="13382488">
-      <assemblyIdentity name="Aspose.Pdf" version="6.6.0.0" publicKeyToken="47B2D0FCACDD3EB6" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>cxFwaUqqdG50dILboC9ZoAg8CVJ+I5UwMyvJ5Xkqqz8=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Aspose.Words.dll" size="12362624">
-      <assemblyIdentity name="Aspose.Words" version="17.11.0.0" publicKeyToken="716FCC553A201E56" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>z+0hz7f3PXcC+Kqc4Vi2i8Rh/6SOvTG2iKodqFB0WWQ=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutocompleteMenu.dll" size="44032">
       <assemblyIdentity name="AutocompleteMenu" version="1.3.4.0" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -91,18 +55,6 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.mshtml.dll" size="8032448">
-      <assemblyIdentity name="Microsoft.mshtml" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>If7lc0weIVxqZTBazk752/myJbc+w469T+fz9AKDHpk=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MigraDoc.DocumentObjectModel.dll" size="249856">
       <assemblyIdentity name="MigraDoc.DocumentObjectModel" version="1.31.3066.0" publicKeyToken="F94615AA0424F9EB" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -111,6 +63,18 @@
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
         <dsig:DigestValue>sOYAu/w55LFQ0GzcF62UOzxs9wTqlCHTeRjFBCjmnfs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\MigraDoc.DocumentObjectModel.resources.dll" size="9728">
+      <assemblyIdentity name="MigraDoc.DocumentObjectModel.resources" version="1.31.3066.0" publicKeyToken="F94615AA0424F9EB" language="de" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4Vc6Im/v+r0/V2ndrt8fChD0JO2yIJ0RoAannKg8ghI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -139,6 +103,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\MigraDoc.Rendering.resources.dll" size="5632">
+      <assemblyIdentity name="MigraDoc.Rendering.resources" version="1.31.3066.0" publicKeyToken="F94615AA0424F9EB" language="de" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>OmERHw80P0jRQo1IsEVaGsSZEaq8wBkA7uLREQvMElM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MigraDoc.Rendering.resources.dll" size="5632">
       <assemblyIdentity name="MigraDoc.Rendering.resources" version="1.31.3066.0" publicKeyToken="F94615AA0424F9EB" language="de" processorArchitecture="msil" />
       <hash>
@@ -163,7 +139,7 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MigraDoc.RtfRendering.resources.dll" size="5632">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\MigraDoc.RtfRendering.resources.dll" size="5632">
       <assemblyIdentity name="MigraDoc.RtfRendering.resources" version="1.31.3066.0" publicKeyToken="F94615AA0424F9EB" language="de" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
@@ -175,14 +151,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NRtfTree.dll" size="45056">
-      <assemblyIdentity name="NRtfTree" version="0.3.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MigraDoc.RtfRendering.resources.dll" size="5632">
+      <assemblyIdentity name="MigraDoc.RtfRendering.resources" version="1.31.3066.0" publicKeyToken="F94615AA0424F9EB" language="de" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>y7DeEPeaIBMuU6UZnSwHKQAA0EF9gIYzBGSQSHykHZU=</dsig:DigestValue>
+        <dsig:DigestValue>VVQj3y7Lq9QLDVJoLs18SyMP+cQ6/lvJtkm7f7j8ajg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -247,38 +223,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Spire.License.dll" size="45056">
-      <assemblyIdentity name="Spire.License" version="1.3.2.40" publicKeyToken="B1144360237C8B3F" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Xsed1OXQcWGDPMb/X6IAM+fZkN+hDoEkWCPmhWEU8Yg=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Spire.Pdf.dll" size="12181504">
-      <assemblyIdentity name="Spire.Pdf" version="3.2.52.56040" publicKeyToken="663F351905198CB3" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>AKM9vkfbcf67saziGv6NzoOYoPHJlvUkH5LQZeFDJVk=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Texditor.exe" size="889816">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Texditor.exe" size="1013760">
       <assemblyIdentity name="Texditor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ijtt0ivUR1RqvDkdt3mllkQbyg28o8zR9z4P4cL+o8M=</dsig:DigestValue>
+        <dsig:DigestValue>jl9ffNJlDLq5bUF17fOfKJmFzVnQPIsJPlZJIvoGC0E=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
